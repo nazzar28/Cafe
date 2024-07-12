@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Cafe</string>
+    <string name="welcome">Welcome!</string>
+    <string name="username_ihint">Username</string>
+    <string name="password_hint">Password</string>
+    <string name="sign_in_button">sign in</string>
+    <string name="logoOfCafe">logoOfCafe</string>
+</resources>
