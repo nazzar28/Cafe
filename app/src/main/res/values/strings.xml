@@ -5,4 +5,24 @@
     <string name="password_hint">Password</string>
     <string name="sign_in_button">sign in</string>
     <string name="logoOfCafe">logoOfCafe</string>
+    <string name="greetings">Hello, %s! What do you want?</string>
+    <string name="tea">Tea</string>
+    <string name="coffee">Coffee</string>
+    <string name="what_u_want_to_add_to_your_s">What u want to add to your %s</string>
+    <string name="sugar">Sugar</string>
+    <string name="milk">Milk</string>
+    <string name="lemon">Lemon</string>
+    <string name="choose_the_drink_type">Choose the drink type</string>
+    <string name="make_order">Make order</string>
+
+    <array name="typeOfTea">
+        <item>Green</item>
+        <item>Black</item>
+    </array>
+
+    <array name="typeOfCoffee">
+        <item>Americano</item>
+        <item>Espresso</item>
+        <item>Latte</item>
+    </array>
 </resources>
