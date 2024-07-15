@@ -8,7 +8,7 @@
     <string name="greetings">Hello, %s! What do you want?</string>
     <string name="tea">Tea</string>
     <string name="coffee">Coffee</string>
-    <string name="what_u_want_to_add_to_your_s">What u want to add to your %s</string>
+    <string name="what_to_add">What u want to add to your %s</string>
     <string name="sugar">Sugar</string>
     <string name="milk">Milk</string>
     <string name="lemon">Lemon</string>

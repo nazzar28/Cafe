@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
-        initValues();
+        initViews();
 
         signIn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    private void initValues(){
+    private void initViews(){
         name = findViewById(R.id.editTextName);
         password = findViewById(R.id.editTextPassword);
         signIn = findViewById(R.id.signInButton);
