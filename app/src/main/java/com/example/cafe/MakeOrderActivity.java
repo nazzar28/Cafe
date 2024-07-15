@@ -3,6 +3,12 @@ package com.example.cafe;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.widget.Button;
+import android.widget.CheckBox;
+import android.widget.RadioButton;
+import android.widget.RadioGroup;
+import android.widget.Spinner;
+import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -11,6 +17,19 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 public class MakeOrderActivity extends AppCompatActivity {
+
+    TextView greetings;
+    TextView additives;
+    RadioGroup drinks;
+    RadioButton tea;
+    RadioButton coffee;
+    CheckBox sugar;
+    CheckBox milk;
+    CheckBox lemon;
+    Spinner spTea;
+    Spinner spCoffee;
+    Button makeOrder;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,6 +43,8 @@ public class MakeOrderActivity extends AppCompatActivity {
         });
     }
 
+    init values();
+
     public static Intent newIntent(Context context, String username){
         Intent intent = new Intent(context, MakeOrderActivity.class);
 
@@ -31,4 +52,6 @@ public class MakeOrderActivity extends AppCompatActivity {
 
         return intent;
     }
+
+    public void
 }

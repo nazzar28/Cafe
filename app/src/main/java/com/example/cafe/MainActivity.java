@@ -16,6 +16,10 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class MainActivity extends AppCompatActivity {
 
+    EditText name;
+    EditText password;
+    Button signIn;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -26,12 +30,8 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+        initValues();
 
-        EditText name = findViewById(R.id.editTextName);
-
-        EditText password = findViewById(R.id.editTextPassword);
-
-        Button signIn = findViewById(R.id.signInButton);
         signIn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -49,6 +49,12 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
+    }
+
+    private void initValues(){
+        name = findViewById(R.id.editTextName);
+        password = findViewById(R.id.editTextPassword);
+        signIn = findViewById(R.id.signInButton);
     }
 
     private void launchNextScreen(String username){
